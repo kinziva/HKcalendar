@@ -97,9 +97,7 @@ This homework is graded based on the following criteria:
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application:https://kinziva.github.io/HKcalendar/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository: https://github.com/kinziva/HKcalendar
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
