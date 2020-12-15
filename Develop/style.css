@@ -1,59 +1,66 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  font-family: "Roboto", "Patrick Hand";
+  font-size: 18px;
+  line-height: 0.5;
+  background-color: rgb(173, 247, 243);
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 35px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  height: 150px;
+  padding-top: 35px;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
+  color: #000000;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 90px;
+  border-top: 1px dashed white;
 }
 
 .hour {
   background-color: #ffffff;
+  font-size: 18px;
+  text-align: center;
   color: #000000;
-  border-top: 1px dashed #000000;
+  padding-top: 35px;
+  padding-left: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-
+/* time block time coloring */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ff38b3;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #04995b;
   color: white;
 }
 
@@ -61,11 +68,18 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.4s ease-out;
+  background-color: #f85398;
+}
+
+.sticky {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
 }
