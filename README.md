@@ -14,4 +14,4 @@
 Submitted BOTH of the following for review:
 * The URL of the functional, deployed application:https://kinziva.github.io/HKcalendar/
 * The URL of the GitHub repository: https://github.com/kinziva/HKcalendar
- ![Work Day Calender Screenshot](./Assets/PaaswordGenerator.JPG)
+ ![Work Day Calender Screenshot](./Assets/workdayscreenShot.JPG)
